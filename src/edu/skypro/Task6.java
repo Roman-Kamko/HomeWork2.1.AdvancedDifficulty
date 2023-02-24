@@ -23,7 +23,7 @@ public class Task6 {
                 count++;
             }
         }
-        if (count % 2 == 0) {
+        if (count != 0 && count % 2 == 0) {
             return true;
         }
         return false;
